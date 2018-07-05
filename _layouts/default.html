@@ -22,13 +22,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-lg-7 col-md-7 col-lg-offset-1">
-					{{ content }}
-				</div>
-
-			<!-- Sidebar Content // Hidden on mobile -->
-
-				<div class="col-md-5 col-lg-3 hidden-sm hidden-xs sidebar">
+				<div class="col-lg-6 col-md-6">
 					{% include socials.html %}
 					{% include search-box.html %}
 					{% include emma-form.html %}
@@ -36,6 +30,12 @@
 					{% include lender.html %}
 					{% include blog-archive-category.html %}
 					{% include reviews.html %}
+				</div>
+
+			<!-- Sidebar Content // Hidden on mobile -->
+
+				<div class="col-md-6 col-lg-6">
+					{{content}}
 				</div>
 			</div>
 
